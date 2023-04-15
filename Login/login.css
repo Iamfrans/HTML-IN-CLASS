@@ -89,3 +89,9 @@ h2{
     color: #00ccff;
 
 }
+::placeholder{
+    font-size: 15px;
+    color: #00ccff52;
+    letter-spacing: 1px;
+
+}
