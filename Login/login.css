@@ -124,3 +124,18 @@ h2{
     justify-content: center;
     align-items: center;
 }
+.fotter {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.fotter a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.glowIcon {
+    text-shadow: 0 0 10px #00ccff;
+
+}
