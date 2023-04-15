@@ -70,3 +70,10 @@ h2{
     font-weight: 600;
     text-align: center;
 }
+.input_group{
+    margin-top: 40px;
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: start;
+}
