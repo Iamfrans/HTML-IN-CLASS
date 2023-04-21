@@ -1,3 +1,3 @@
-var respuesta = [
-    ["faltan 23 dias"]
-]
+var resultado[
+document.write('Hola');
+]]
