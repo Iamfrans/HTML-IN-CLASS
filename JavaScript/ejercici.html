@@ -7,7 +7,33 @@
     <title>Document</title>
 </head>
 <body>
-    <p id="level"></p>
-    <script src="ejercice.js"></script>
-</body>
-</html>
+    <h4>Output after using toLocaleString() Method.</h4>
+    <div id="dateAndTime"> </div>
+    <h4> Output after using toLocaleDateString() Method.</h4>
+    <div id="date"> </div>
+    <h4> Output after using toLocaleTimeString() Method. </h4>
+    <div id="time"> </div>
+    <h4> Output after using toLocaleString() Method with locale 'en-IN'. </h4>
+    <div id="dateIN"> </div>
+    <h4> Output after using toLocaleString() Method with local 'en-US'. </h4>
+    <div id="dateUs"> </div>
+    <script type="text/javascript">
+       let dateAndTime = document.getElementById("dateAndTime");
+       let date = document.getElementById("date");
+       let time = document.getElementById("time");
+       let dateIN = document.getElementById("dateIN");
+       let dateUs = document.getElementById("dateUs");
+ 
+       let newDate = new Date();
+       dateAndTime.innerHTML = newDate.toLocaleString();
+       date.innerHTML = newDate.toLocaleDateString();
+       time.innerHTML = newDate.toLocaleTimeString();
+ 
+       var options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long', };
+       dateIN.innerHTML = newDate.toLocaleString("en-IN", options);
+       dateUs.innerHTML = newDate.toLocaleString("en-US", options);
+    </script>
+ </body>
+ </html>
+
+ <!-- https://www.tutorialspoint.com/How-do-I-get-the-current-date-and-time-in-JavaScript -->
