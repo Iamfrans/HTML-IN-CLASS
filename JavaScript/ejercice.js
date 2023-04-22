@@ -3,4 +3,4 @@ evento.setDate(24);
 console.log(evento.getDate());
 //Expected output: 24 
 evento.setDate(32);
-console.log(evento.getDate());  
+console.log(evento.getDate());
